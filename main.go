@@ -14,7 +14,6 @@ func main() {
 	app.Version = "0.0.1"
 
 	app.Action = func(context *cli.Context) error {
-		fmt.Println(context.Args().Get(0))
 		err := exec.Command("open", "https://www.google.com/search?q="+context.Args().Get(0)).Start()
 		if err != nil {
 			panic(err)
