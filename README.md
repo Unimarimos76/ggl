@@ -10,6 +10,9 @@ In Japan, ggrks is returned for words that can be understood by checking. This m
 
 
 # Usage
+
+
+Do a go install at /go/src
 ```
 ggr hoge fuha hoge 
 ```
