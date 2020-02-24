@@ -17,3 +17,6 @@ Do a go install at /go/src
 ggr hoge fuha hoge 
 ```
 
+
+# LICENCE
+MIT
